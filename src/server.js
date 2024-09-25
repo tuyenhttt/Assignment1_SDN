@@ -56,7 +56,7 @@ const quizRoutes = require("./routes/quizRoutes");
 const questionRoutes = require("./routes/questionRoutes");
 
 app.get("/", (req, res) => {
-  res.send("Sample Quizzes");
+  res.send("Simple Quizzes");
 });
 app.use("/quizzes", quizRoutes);
 app.use("/questions", questionRoutes);
