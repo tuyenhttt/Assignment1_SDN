@@ -1,0 +1,70 @@
+{
+  "quizzes": [
+    {
+      "Object_id": "quiz12345",
+      "title": "JavaScript Basics",
+      "description": "A quiz to test your basic knowledge of JavaScript.",
+      "questions": ["question123", "question124", "question125"]
+    },
+    {
+      "Object_id": "quiz67890",
+      "title": "HTML Fundamentals",
+      "description": "A quiz to evaluate your understanding of HTML concepts.",
+      "questions": ["question126", "question127", "question128"]
+    }
+  ],
+  "questions": [
+    {
+      "Object_id": "question123",
+      "text": "What is the correct syntax to output 'Hello World' in JavaScript?",
+      "options": [
+        "print('Hello World');",
+        "console.log('Hello World');",
+        "echo 'Hello World';",
+        "response.write('Hello World');"
+      ],
+      "keywords": ["javascript", "output", "console"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "Object_id": "question124",
+      "text": "Which company developed JavaScript?",
+      "options": ["Microsoft", "Apple", "Netscape", "Google"],
+      "keywords": ["javascript", "history"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "Object_id": "question125",
+      "text": "Which symbol is used for comments in JavaScript?",
+      "options": ["//", "#", "<!-- -->", "/* */"],
+      "keywords": ["javascript", "syntax", "comments"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "Object_id": "question126",
+      "text": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyperlinks Text Master Language"
+      ],
+      "keywords": ["html", "definition"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "Object_id": "question127",
+      "text": "Which tag is used to define an image in HTML?",
+      "options": ["<img>", "<image>", "<src>", "<pic>"],
+      "keywords": ["html", "tags", "images"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "Object_id": "question128",
+      "text": "Which HTML attribute is used to define inline styles?",
+      "options": ["class", "style", "font", "styles"],
+      "keywords": ["html", "attributes", "styles"],
+      "correctAnswerIndex": 1
+    }
+  ]
+}
